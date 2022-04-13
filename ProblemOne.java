@@ -61,7 +61,7 @@ public class ProblemOne
         }
         long endtime  = System.nanoTime();
         
-        System.out.print("All thank-you notes written!\nDone in " + ((endtime - startTime)/1000000) + " milliseconds!");
+        System.out.print("All thank-you notes written! All Done!");
         
         
     }
@@ -191,7 +191,7 @@ class Servant implements Runnable
             {
             
                 
-                if(!bag.isEmpty() && counter.get() < 500)
+                if(!bag.isEmpty() && counter.get() < 500000)
                 {
                     gift = bag.get(counter.get());
                     counter.getAndIncrement();
