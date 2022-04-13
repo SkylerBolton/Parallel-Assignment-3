@@ -23,3 +23,22 @@ Removing gifts: the servants will always remove gifts from the head (ignoring th
 
 Efficiency/correctness: 
 The program finishes (adds and removes all presents from the chain) in less than a second. The program will not end until every gift has been both added and removed.
+
+# Parallel-Assignment-3
+
+Problem Two
+
+Running: 
+
+  javac ProblemTwo.java
+
+  java ProblemTwo
+
+Sample Output:
+
+  see TwoOutput.txt
+
+Approach:
+
+
+Efficiency/correctness: 
