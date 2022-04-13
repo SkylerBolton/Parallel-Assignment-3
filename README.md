@@ -21,5 +21,5 @@ Adding gifts: The servants share an atomic counter variable. Each servant will g
 
 Removing gifts: the servants will always remove gifts from the head (ignoring the sentinel node) They will stop when no other nodes exist besides the head, the tail, and the second tail (added to deal with edge cases).
 
-Efficiency: 
+Efficiency/correctness: 
 The program finishes (adds and removes all presents from the chain) in less than a second. The program will not end until every gift has been both added and removed.
