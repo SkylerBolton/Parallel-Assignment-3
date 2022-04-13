@@ -1,0 +1,240 @@
+Hour #1
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #7.
+This difference was: 164 degrees
+
+
+Hour #2
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+65
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #17.
+This difference was: 165 degrees
+
+
+Hour #3
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-96
+-95
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #30.
+This difference was: 153 degrees
+
+
+Hour #4
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #6.
+This difference was: 163 degrees
+
+
+Hour #5
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #15.
+This difference was: 158 degrees
+
+
+Hour #6
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #49.
+This difference was: 166 degrees
+
+
+Hour #7
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #9.
+This difference was: 165 degrees
+
+
+Hour #8
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #28.
+This difference was: 156 degrees
+
+
+Hour #9
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #42.
+This difference was: 164 degrees
+
+
+Hour #10
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #0.
+This difference was: 170 degrees
+
+
+Hour #11
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #31.
+This difference was: 169 degrees
+
+
+Hour #12
+
+5 highest temperatures this hour:
+70
+69
+68
+67
+66
+
+5 lowest temperatures this hour:
+-100
+-99
+-98
+-97
+-96
+
+The 10-minute interval of time when the largest temperature difference was observed this hour was minute #17.
+This difference was: 157 degrees
+
+
