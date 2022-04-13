@@ -1,13 +1,16 @@
 # Parallel-Assignment-3
 
-Problem One
+# Problem One
 
 Running: 
 javac ProblemOne.java
+
 java ProblemOne
 
-Sample Output:
+# Sample Output:
+
 All presents have been added!
+
 All thank-you notes written! All Done!
 
 Approach:
