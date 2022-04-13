@@ -4,15 +4,15 @@ Problem One
 
 Running: 
 
-javac ProblemOne.java
+  javac ProblemOne.java
 
-java ProblemOne
+  java ProblemOne
 
 Sample Output:
 
-All presents have been added!
+  All presents have been added!
 
-All thank-you notes written! All Done!
+  All thank-you notes written! All Done!
 
 Approach:
 To represent the bag, I created an integer ArrayList of size 500000. I then filled the array with integers 1 - 500000, then called Collections.shuffle(bag) to make the order of gifts random. My chain was represented with a non-blocking linked list based on the textbook's implementation in chapter 9. ach servant alternates between adding a gift to the chain and removing one from the chain. In addition, there is a 30% chance each loop the minotaur will look at the chain for a certain gift (using contains()).
