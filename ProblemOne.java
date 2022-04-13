@@ -158,7 +158,6 @@ class Servant implements Runnable
     public static AtomicInteger counter = new AtomicInteger(0);
     int gift;
     int idx;
-    int personal = 50000 / 4;
     public static boolean doneAddingDisplayed = false;
 
     public Servant(ArrayList<Integer> bag)
@@ -187,10 +186,10 @@ class Servant implements Runnable
             choice = rand.nextInt(3) + 1;
 
             // Add something to the chain of gifts
-            if (alter == 1 && personal > 0)
+            if (alter == 1)
             {
             
-                
+                ProblemOne.ArrayLock.lock();
                 if(!bag.isEmpty() && counter.get() < 500000)
                 {
                     gift = bag.get(counter.get());
@@ -199,6 +198,7 @@ class Servant implements Runnable
                     //System.out.println("adding " + gift);
 
                 }
+                ProblemOne.ArrayLock.unlock();
             }
             
             // Write a thank you note and remove it
