@@ -6,9 +6,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.concurrent.CountDownLatch;
-
 import javax.print.event.PrintEvent;
-
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ProblemOne
@@ -107,30 +105,6 @@ class GiftList
         }
     }
 
-    public boolean remove(int item) 
-    {
-        int key = item;
-        boolean snip;
-        while (true) 
-        {
-            Window window = Window.find(head, key);
-            Node pred = window.pred, curr = window.curr;
-            if (curr.key != key) 
-            {
-                return false;
-            } 
-            else 
-            {
-                Node succ = curr.next.getReference();
-                snip = curr.next.compareAndSet(succ, succ, false, true);
-                if (!snip)
-                    continue;
-                pred.next.compareAndSet(curr, succ, false, false);
-                return true;
-            }
-        }
-    }
-
     public int removeHead() 
     {
         Node pred = head;
@@ -143,6 +117,8 @@ class GiftList
         }
 
         int n = third.key;
+
+        //System.out.println("removing " + n);
 
         head.next = new AtomicMarkableReference(third, false);
         
@@ -215,11 +191,12 @@ class Servant implements Runnable
             {
             
                 
-                if(!bag.isEmpty() && counter.get() < 500000)
+                if(!bag.isEmpty() && counter.get() < 500)
                 {
                     gift = bag.get(counter.get());
                     counter.getAndIncrement();
                     ProblemOne.gList.add(gift);
+                    //System.out.println("adding " + gift);
 
                 }
             }
