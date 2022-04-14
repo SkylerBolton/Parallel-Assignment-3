@@ -22,7 +22,9 @@ Adding gifts: The servants share an atomic counter variable. Each servant will g
 Removing gifts: the servants will always remove gifts from the head (ignoring the sentinel node) They will stop when no other nodes exist besides the head, the tail, and the second tail (added to deal with edge cases).
 
 Efficiency/correctness: 
-The program finishes (adds and removes all presents from the chain) in less than a second. The program will not end until every gift has been both added and removed.
+The program finishes (adds and removes all presents from the chain) in less than a second. The program will not end until every gift has been both added and removed. It will not stop running until 
+1. The bag is empty.
+2. 500000 elements have been removed from the chain.
 
 # Parallel-Assignment-3
 
@@ -39,6 +41,10 @@ Sample Output:
   see TwoOutput.txt
 
 Approach:
+I simulated the temperature readings with two loops: an outer loop in main representing hours. Each hour, 8 sensor threads are created. The sensor threads fill a 2d array of size [8][60] with all of the temperature readings taken that hour. One this array is returned, I place it all in a TreeSet to order it, and then iterate through the back and front of the treeset to print the highest/lowest values that hour. Using a treeset also avoids duplicate values.
+
+I then print the 10-minute timeframe in which the greatest temp difference is found. I print the first minute of the 10-minute window, and the difference.
 
 
-Efficiency/correctness: 
+Efficiency/correctness:
+Runs in a couple seconds. Output is often similar just due to probability, but is not always the same, so it is random. 
