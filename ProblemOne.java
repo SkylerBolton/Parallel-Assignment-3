@@ -116,7 +116,7 @@ class GiftList
             return -1;
         }
 
-        int n = third.key;
+        int n = second.key;
 
         //System.out.println("removing " + n);
 
